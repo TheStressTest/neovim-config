@@ -1,0 +1,5 @@
+{
+	"coc.preferences.formatOnSaveFiletypes": ["python", "html"],
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": true
+}
