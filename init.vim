@@ -1,8 +1,8 @@
 " Sourcing
 
-source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/general/mapping.vim
-source $HOME/.config/nvim/general/float.vim
+source $HOME/.config/nvim/plugin-config/settings.vim
+source $HOME/.config/nvim/plugin-config/mapping.vim
+source $HOME/.config/nvim/plugin-config/float.vim
 
 " end of sourcing
 
