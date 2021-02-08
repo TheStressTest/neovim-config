@@ -1,6 +1,9 @@
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 
+" Better way to enter normal mode
+nnoremap hj <Esc>
+
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 
