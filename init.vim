@@ -6,7 +6,6 @@ source $HOME/.config/nvim/plugin-config/float.vim
 
 " end of sourcing
 
-
 " main plug
 
 call plug#begin('~/.vim/plugged')
@@ -48,3 +47,5 @@ let g:airline_powerline_fonts = 1
 let g:NERDTreeGitStatusWithFlags = 1
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
 
+" Quality of life
+:set paste
