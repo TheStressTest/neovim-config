@@ -6,7 +6,7 @@ source $HOME/.config/nvim/plugin-config/float.vim
 
 " end of sourcing
 
-" main plug
+"main plug
 
 call plug#begin('~/.vim/plugged')
 
@@ -28,17 +28,17 @@ Plug 'voldikss/vim-floaterm'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Quality of life
-
 call plug#end()
 
 " init commands
-autocmd VimEnter * NERDTree
+autocmd VimEnter * :NERDTree
+
+" Exit commands
+autocmd VimLeave * :!echo -ne '\e[0 q'
 
 " Coloring
 set background=dark
 colorscheme palenight
-set encoding=UTF-8
 
 " Airline
 let g:airline_powerline_fonts = 1
@@ -46,3 +46,4 @@ let g:airline_powerline_fonts = 1
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
+
