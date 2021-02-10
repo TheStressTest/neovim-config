@@ -46,6 +46,3 @@ let g:airline_powerline_fonts = 1
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
-
-" Quality of life
-:set paste
