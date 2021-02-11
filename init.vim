@@ -25,7 +25,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'voldikss/vim-floaterm'
 
 " autocompletion
-Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
@@ -34,7 +33,7 @@ call plug#end()
 autocmd VimEnter * :NERDTree
 
 " Exit commands
-autocmd VimLeave * :!echo -ne '\e[0 q'
+autocmd VimLeave * :silent !echo -ne '\e[q 0'
 
 " Coloring
 set background=dark
@@ -45,5 +44,8 @@ let g:airline_powerline_fonts = 1
 
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
+let g:airline_theme = "palenight"
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
 
+" misc
+" set guicursor=
