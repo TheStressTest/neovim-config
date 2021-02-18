@@ -7,7 +7,6 @@ source $HOME/.config/nvim/plugin-config/float.vim
 " end of sourcing
 
 "main plug
-
 call plug#begin('~/.vim/plugged')
 
 " theme
@@ -26,6 +25,7 @@ Plug 'voldikss/vim-floaterm'
 
 " autocompletion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
@@ -48,4 +48,5 @@ let g:airline_theme = "palenight"
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
 
 " misc
-" set guicursor=
+set paste
+
