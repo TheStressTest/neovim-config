@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 " theme
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'morhetz/gruvbox'
 
 " directory tree
 Plug 'preservim/nerdtree'
@@ -37,14 +38,14 @@ autocmd VimLeave * :silent !echo -ne '\e[q 0'
 
 " Coloring
 set background=dark
-colorscheme palenight
+colorscheme gruvbox
 
 " Airline
 let g:airline_powerline_fonts = 1
 
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
-let g:airline_theme = "palenight"
+let g:airline_theme = "gruvbox"
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
 
 " misc
