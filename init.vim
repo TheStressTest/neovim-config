@@ -18,6 +18,7 @@ Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
 " directory tree
 Plug 'preservim/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " airline
 Plug 'vim-airline/vim-airline'
@@ -37,20 +38,17 @@ call plug#end()
 " init commands
 autocmd VimEnter * :NERDTree
 
-" Exit commands
-autocmd VimLeave * :silent !echo -ne '\e[q 0'
-
 " Coloring
 set background=dark
 colorscheme challenger_deep
 
 " Airline
 let g:airline_powerline_fonts = 1
+let g:airline_theme = "challenger_deep"
 
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
-let g:airline_theme = "challenger_deep"
-let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
+let g:NERDTreeIgnore = ['^node_modules$', '^venv$', '^.git$']
 
 " misc
 set paste
