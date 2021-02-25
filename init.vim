@@ -3,6 +3,7 @@
 source $HOME/.config/nvim/plugin-config/settings.vim
 source $HOME/.config/nvim/plugin-config/mapping.vim
 source $HOME/.config/nvim/plugin-config/float.vim
+source $HOME/.config/nvim/plugin-config/start-screen.vim
 
 " end of sourcing
 
@@ -13,11 +14,12 @@ call plug#begin('~/.vim/plugged')
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
+Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
 " directory tree
 Plug 'preservim/nerdtree'
 
-" bar on bottom
+" airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -26,6 +28,9 @@ Plug 'voldikss/vim-floaterm'
 
 " autocompletion
 Plug 'tpope/vim-surround'
+
+" misc
+Plug 'mhinz/vim-startify'
 
 call plug#end()
 
@@ -37,14 +42,14 @@ autocmd VimLeave * :silent !echo -ne '\e[q 0'
 
 " Coloring
 set background=dark
-colorscheme palenight
+colorscheme challenger_deep
 
 " Airline
 let g:airline_powerline_fonts = 1
 
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
-let g:airline_theme = "palenight"
+let g:airline_theme = "challenger_deep"
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
 
 " misc
