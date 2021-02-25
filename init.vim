@@ -38,14 +38,14 @@ autocmd VimLeave * :silent !echo -ne '\e[q 0'
 
 " Coloring
 set background=dark
-colorscheme gruvbox
+colorscheme palenight
 
 " Airline
 let g:airline_powerline_fonts = 1
 
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
-let g:airline_theme = "gruvbox"
+let g:airline_theme = "palenight"
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$']
 
 " misc
