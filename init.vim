@@ -63,6 +63,3 @@ let g:airline_theme = "embark"
 let g:NERDTreeGitStatusWithFlags = 1
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$', '^.git$']
 
-" misc
-set paste
-
