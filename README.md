@@ -17,4 +17,15 @@ git clone https://github.com/TheStressTest/neovim-config/ .
 :PlugInstall
 ```
 
+### YouCompleteMe
+If you want to use YouCompleteMe you must install these packages:
+```sh
+apt install build-essential cmake
+```
+Then to compile it run:
+```sh
+cd ~/.vim/plugged/YouCompleteMe
+python3 install.py
+```
+
 ### This should set up your config files! Have a great day.
