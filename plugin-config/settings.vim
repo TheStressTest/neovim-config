@@ -31,6 +31,7 @@ set formatoptions=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set termguicolors
 set autochdir                           " Your working directory will always
+filetype plugin on
 "be the same as your working directory
 "
 "au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm
