@@ -21,7 +21,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " FZF
-nnoremap <C-p>    :GFiles<CR>
+nnoremap <C-p>    :Files<CR>
 
 " Git
 nnoremap <C-g>      :GitMessenger<CR>

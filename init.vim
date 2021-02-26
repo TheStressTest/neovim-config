@@ -5,6 +5,7 @@ source $HOME/.config/nvim/plugin-config/mapping.vim " key binding
 source $HOME/.config/nvim/plugin-config/float.vim " config for floaterm
 source $HOME/.config/nvim/plugin-config/start-screen.vim " config for startify
 source $HOME/.config/nvim/plugin-config/gitgutter.vim " config for gitgutter
+source $HOME/.config/nvim/plugin-config/fzf.vim " Config for fuzzy finder
 
 " end of sourcing
 
@@ -33,6 +34,7 @@ Plug 'voldikss/vim-floaterm' " terminal and floating windows
 Plug 'tpope/vim-surround' " more auto pairs
 Plug 'jiangmiao/auto-pairs' " auto pairs {, } [, ] (, )
 Plug 'ycm-core/YouCompleteMe' " cd ~/.vim/plugged/YouCompleteMe/ && python3 install.py
+Plug 'preservim/nerdcommenter' " comments, duh
 
 " Git
 Plug 'airblade/vim-gitgutter' " status gutter
@@ -41,7 +43,6 @@ Plug 'rhysd/git-messenger.vim' " more info on lines (commit message etc)
 
 " misc
 Plug 'mhinz/vim-startify' " start screen
-Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multiple cursors
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder
 Plug 'junegunn/fzf.vim' " not sure but you have to plug it for fuzzy finder to work
 
