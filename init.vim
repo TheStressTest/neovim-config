@@ -32,6 +32,7 @@ Plug 'voldikss/vim-floaterm' " terminal and floating windows
 " autocompletion
 Plug 'tpope/vim-surround' " more auto pairs
 Plug 'jiangmiao/auto-pairs' " auto pairs {, } [, ] (, )
+Plug 'ycm-core/YouCompleteMe' " cd ~/.vim/plugged/YouCompleteMe/ && python3 install.py
 
 " Git
 Plug 'airblade/vim-gitgutter' " status gutter

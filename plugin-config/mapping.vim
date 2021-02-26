@@ -23,3 +23,5 @@ nnoremap <C-l> <C-w>l
 " FZF
 nnoremap <C-p>    :GFiles<CR>
 
+" Git
+nnoremap <C-g>      :GitMessenger<CR>
