@@ -29,9 +29,13 @@ Plug 'voldikss/vim-floaterm'
 
 " autocompletion
 Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 
 " misc
 Plug 'mhinz/vim-startify'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
