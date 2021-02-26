@@ -11,11 +11,12 @@ source $HOME/.config/nvim/plugin-config/gitgutter.vim " config for gitgutter
 "main plug
 call plug#begin('~/.vim/plugged')
 
-" theme
+" themes
 Plug 'drewtempelmeyer/palenight.vim' " Pretty nice theme
 Plug 'ryanoasis/vim-devicons' " Cool icons on nerdtree
 Plug 'morhetz/gruvbox' " nice theme
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' } " another nice theme
+Plug 'embark-theme/vim', { 'as': 'embark' } " another cool theme 🙄
 
 " directory tree
 Plug 'preservim/nerdtree' " Directory tree on the side
@@ -50,11 +51,11 @@ autocmd VimEnter * :NERDTree
 
 " Coloring
 set background=dark
-colorscheme challenger_deep
+colorscheme embark
 
 " Airline
 let g:airline_powerline_fonts = 1
-let g:airline_theme = "challenger_deep"
+let g:airline_theme = "embark"
 
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
