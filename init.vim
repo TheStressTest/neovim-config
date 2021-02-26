@@ -18,6 +18,7 @@ Plug 'ryanoasis/vim-devicons' " Cool icons on nerdtree
 Plug 'morhetz/gruvbox' " nice theme
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' } " another nice theme
 Plug 'embark-theme/vim', { 'as': 'embark' } " another cool theme 🙄
+Plug 'ntk148v/vim-horizon' " ok this is the last theme I promise!
 
 " directory tree
 Plug 'preservim/nerdtree' " Directory tree on the side
