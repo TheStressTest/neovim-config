@@ -4,6 +4,7 @@ source $HOME/.config/nvim/plugin-config/settings.vim
 source $HOME/.config/nvim/plugin-config/mapping.vim
 source $HOME/.config/nvim/plugin-config/float.vim
 source $HOME/.config/nvim/plugin-config/start-screen.vim
+source $HOME/.config/nvim/plugin-config/gitgutter.vim
 
 " end of sourcing
 
@@ -30,6 +31,10 @@ Plug 'voldikss/vim-floaterm'
 " autocompletion
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+
+" Git
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 " misc
 Plug 'mhinz/vim-startify'
