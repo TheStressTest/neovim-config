@@ -6,7 +6,7 @@ source $HOME/.config/nvim/plugin-config/float.vim " config for floaterm
 source $HOME/.config/nvim/plugin-config/start-screen.vim " config for startify
 source $HOME/.config/nvim/plugin-config/gitgutter.vim " config for gitgutter
 source $HOME/.config/nvim/plugin-config/fzf.vim " Config for fuzzy finder
-
+source $HOME/.config/nvim/plugin-config/cursors.vim " config fore vim-multiple-cursors
 " end of sourcing
 
 "main plug
@@ -44,6 +44,7 @@ Plug 'rhysd/git-messenger.vim' " more info on lines (commit message etc)
 " misc
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder
 Plug 'junegunn/fzf.vim' " not sure but you have to plug it for fuzzy finder to work
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
