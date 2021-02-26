@@ -32,7 +32,6 @@ Plug 'vim-airline/vim-airline-themes' " themes for airline
 Plug 'voldikss/vim-floaterm' " terminal and floating windows
 
 " autocompletion
-Plug 'tpope/vim-surround' " more auto pairs
 Plug 'jiangmiao/auto-pairs' " auto pairs {, } [, ] (, )
 Plug 'ycm-core/YouCompleteMe' " cd ~/.vim/plugged/YouCompleteMe/ && python3 install.py
 Plug 'scrooloose/nerdcommenter' " comments, duh
@@ -43,7 +42,6 @@ Plug 'tpope/vim-fugitive' " general purpose git plugin
 Plug 'rhysd/git-messenger.vim' " more info on lines (commit message etc)
 
 " misc
-Plug 'mhinz/vim-startify' " start screen
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder
 Plug 'junegunn/fzf.vim' " not sure but you have to plug it for fuzzy finder to work
 
