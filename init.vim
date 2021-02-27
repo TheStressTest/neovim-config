@@ -45,7 +45,7 @@ Plug 'rhysd/git-messenger.vim' " more info on lines (commit message etc)
 " misc
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder
 Plug 'junegunn/fzf.vim' " not sure but you have to plug it for fuzzy finder to work
-Plug 'terryma/vim-multiple-cursors'
+Plug 'terryma/vim-multiple-cursors' " Multiple cursors
 
 call plug#end()
 
