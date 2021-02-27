@@ -23,6 +23,9 @@ nnoremap <C-l> <C-w>l
 " Good way to cut words
 nnoremap <C-c> daw
 
+" Comments
+nnoremap <C-_> :Commentary<CR>
+
 " FZF
 nnoremap <C-p>    :Files<CR>
 

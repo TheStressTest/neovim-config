@@ -34,8 +34,8 @@ Plug 'voldikss/vim-floaterm' " terminal and floating windows
 " autocompletion
 Plug 'jiangmiao/auto-pairs' " auto pairs {, } [, ] (, )
 Plug 'ycm-core/YouCompleteMe' " cd ~/.vim/plugged/YouCompleteMe/ && python3 install.py
-Plug 'scrooloose/nerdcommenter' " comments, duh
-Plug 'tpope/vim-surround' " cool surround add-on
+Plug 'tpope/vim-commentary' " comments, duh
+Plug 'tpope/vim-surround' " cool surround add-on (ysm)
 
 " Git
 Plug 'airblade/vim-gitgutter' " status gutter
