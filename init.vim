@@ -7,6 +7,7 @@ source $HOME/.config/nvim/plugin-config/start-screen.vim " config for startify
 source $HOME/.config/nvim/plugin-config/gitgutter.vim " config for gitgutter
 source $HOME/.config/nvim/plugin-config/fzf.vim " Config for fuzzy finder
 source $HOME/.config/nvim/plugin-config/cursors.vim " config fore vim-multiple-cursors
+source $HOME/.config/nvim/plugin-config/YCM.vim " config for YouCompleteMe
 " end of sourcing
 
 "main plug
