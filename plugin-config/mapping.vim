@@ -24,7 +24,7 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-c> daw
 
 " Comments
-nnoremap <C-_> :Commentary<CR>
+noremap <C-_> :Commentary<CR>
 
 " FZF
 nnoremap <C-p>    :Files<CR>

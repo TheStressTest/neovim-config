@@ -64,4 +64,5 @@ let g:airline_theme = "embark"
 "NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
 let g:NERDTreeIgnore = ['^node_modules$', '^venv$', '^.git$']
+let g:NERDTreeWinPos = "right"
 
