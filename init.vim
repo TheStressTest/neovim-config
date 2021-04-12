@@ -1,5 +1,4 @@
 " Sourcing
-
 source $HOME/.config/nvim/plugin-config/settings.vim " general settings
 source $HOME/.config/nvim/plugin-config/mapping.vim " key binding
 source $HOME/.config/nvim/plugin-config/float.vim " config for floaterm
